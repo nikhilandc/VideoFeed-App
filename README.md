@@ -4,7 +4,7 @@
 
 A Modern, Responsive Vertical Video Feed Experience
 
-🚀 Live Demo: [Click here to try it out!](https://your-live-demo-link.com)
+🚀 Live Demo: [Click here to try it out!](https://video-feed-app-izlw.vercel.app/)
 
 ---
 
