@@ -1,69 +1,80 @@
 import { Video } from '../types/video';
 
-// Sample video data using public domain/open source videos
+// Working sample videos (public demo MP4 files)
 export const videos: Video[] = [
   {
     id: '1',
-    url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-    thumbnailUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-    title: 'For Bigger Blazes',
-    description: 'HBO GO now works with Chromecast -- the easiest way to enjoy online video on your TV. For when you want to settle into your Iron Throne to watch the latest episodes.',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    thumbnailUrl:
+      'https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217',
+    title: 'Big Buck Bunny',
+    description:
+      'A fun animated short film by the Blender Foundation.',
     creator: {
-      username: '@videoCreator',
-      avatarUrl: 'https://i.pravatar.cc/150?img=1',
+      username: '@blender',
+      avatarUrl: 'https://i.pravatar.cc/150?img=11',
     },
     stats: {
-      likes: 1204,
-      comments: 87,
-      shares: 32,
+      likes: 5421,
+      comments: 312,
+      shares: 98,
     },
   },
+
   {
     id: '2',
-    url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-    thumbnailUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-    title: 'Elephant Dream',
-    description: 'The first Blender Open Movie from 2006. Follow Emo and Proog on their adventures in a strange mechanical world.',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    thumbnailUrl:
+      'https://orange.blender.org/wp-content/themes/orange/images/media/gallery/thumbs/ed_head.jpg',
+    title: 'Elephants Dream',
+    description:
+      'The first Blender Open Movie project.',
     creator: {
-      username: '@blenderArtist',
-      avatarUrl: 'https://i.pravatar.cc/150?img=2',
+      username: '@openmovie',
+      avatarUrl: 'https://i.pravatar.cc/150?img=12',
     },
     stats: {
-      likes: 3567,
-      comments: 210,
-      shares: 89,
+      likes: 2210,
+      comments: 145,
+      shares: 42,
     },
   },
+
   {
     id: '3',
-    url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-    thumbnailUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-    title: 'Big Buck Bunny',
-    description: 'Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps...',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    thumbnailUrl:
+      'https://mango.blender.org/wp-content/uploads/2013/05/01_thom_celia_bridge.jpg',
+    title: 'Tears Of Steel',
+    description:
+      'Sci-fi short film created using Blender tools.',
     creator: {
-      username: '@animationPro',
-      avatarUrl: 'https://i.pravatar.cc/150?img=3',
+      username: '@scifiCreator',
+      avatarUrl: 'https://i.pravatar.cc/150?img=13',
     },
     stats: {
-      likes: 5832,
-      comments: 419,
-      shares: 156,
+      likes: 3987,
+      comments: 267,
+      shares: 77,
     },
   },
+
   {
     id: '4',
-    url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
-    thumbnailUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg',
-    title: 'Tears of Steel',
-    description: 'Tears of Steel was realized with crowd-funding by users of the open source 3D creation tool Blender.',
+    url: 'https://samplelib.com/lib/preview/mp4/sample-5s.mp4',
+    thumbnailUrl:
+      'https://dummyimage.com/600x400/000/fff&text=Sample+Video',
+    title: 'Sample Video',
+    description:
+      'Simple short MP4 sample video for testing.',
     creator: {
-      username: '@blenderFoundation',
-      avatarUrl: 'https://i.pravatar.cc/150?img=4',
+      username: '@tester',
+      avatarUrl: 'https://i.pravatar.cc/150?img=14',
     },
     stats: {
-      likes: 2476,
-      comments: 178,
-      shares: 64,
+      likes: 1200,
+      comments: 80,
+      shares: 25,
     },
   },
 ];
